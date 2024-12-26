@@ -6,12 +6,12 @@
     box-sizing:border-box;
 }
 :root{
-    /-------font family-----/
+    /*-------font family-----*/
     --ff-primary:"Roboto",sans-serif;
     --ff-secondary:"Inter",sans-serif;
     --ff-design:"satisfy",cursive;
     --ff-brand:"Margarine",sans-serif;
-    /-----------colors-------/
+    /*-----------colors-------*/
     --clr-white:#fff;
     --clr-dark:#333;
     --clr-grey-1:#102a42;
@@ -22,7 +22,7 @@
     --clr-secondary:#e9b949;
     --transition: all 0.3s linear;
 }
-/------global css------/
+/*------global css------*/
 html {
     scroll-behavior: smooth;
 }
@@ -61,7 +61,7 @@ body{
     color: var(--clr-grey-1);
     line-height: 1.5;
 }
-/---------------------------/
+/*---------------------------*/
 .btn {
     background-color: var(--clr-primary);
     color: var(--clr-white);
@@ -107,7 +107,7 @@ body{
         width: 95%;
     }
 }
-/---------navbar---------/
+/*---------navbar---------*/
 .nav-btn svg{
     fill:var(--clr-primary);
     position:fixed;
@@ -201,7 +201,7 @@ body{
         max-width: 25rem;
     }
 }
-/--------Banner--------/
+/*--------Banner--------*/
 .header {
     min-height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/banner.jpg");
@@ -241,7 +241,7 @@ body{
     outline:0.125rem solid var(--clr-primary);
     outline-offset: 0.25rem;
 }
-/--------features----------/
+/*--------features----------*/
 .features {
     background-color: var(--clr-grey-3);
     cursor: pointer;
@@ -287,7 +287,7 @@ body{
      text-align: center;
   }
 }*/
-/--------about-------/
+/*--------about-------*/
 .about-img,
 .about-info{
     padding: 2rem 0;
@@ -319,7 +319,7 @@ body{
         padding-left: 2rem;
     }
 }
-/---------product-------/
+/*---------product-------*/
 .products {
     background-color: var(--clr-grey-3);
 }
@@ -379,7 +379,7 @@ body{
        padding: 0 1rem; 
     }
  }*/
- /------services--------/
+ /*------services--------*/
  .services-title {
     text-align: center;
     margin-top: 4rem;
@@ -457,7 +457,7 @@ body{
         margin-right: 3.33%; 
      }
  }
- /---------contact us------/
+ /*---------contact us------*/
  .contact{
    background-color:var(--clr-grey-3);
  }
@@ -551,7 +551,7 @@ textarea.form-control {
         width: 50%;
     }
 }
-/------footer-----/
+/*------footer-----*/
 .footer {
     background-color: #222;
     text-align: center;
